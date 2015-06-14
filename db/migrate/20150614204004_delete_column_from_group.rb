@@ -1,7 +1,7 @@
 class DeleteColumnFromGroup < ActiveRecord::Migration
   def change
 
-    remove_column :group, :contact_id, :integer
+    remove_column :groups, :contact_id, :integer
 
   end
 end
